@@ -1,0 +1,289 @@
+/* FONT SECTION */
+/* FONT SECTION */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* FONT SECTION */
+/* FONT SECTION */
+*,
+*::before,
+*::after * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+/* BODY  */
+
+body {
+    /* background-image: linear-gradient(135.9deg, rgba(109, 25, 252, 1) 16.4%, rgba(125, 31, 165, 1) 56.1%); */
+    /* background-image: linear-gradient(89.4deg, rgba(194, 0, 39, 1) 0.8%, rgba(10, 35, 104, 1) 99.4%); */
+    background-image: linear-gradient(65.5deg, rgba(23, 205, 205, 1) -15.1%, rgba(23, 25, 95, 1) 71.5%);
+}
+
+
+
+/* BODY  */
+
+
+/* Navbar Section Start */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    font-family: 'Rubik Distressed', cursive;
+}
+
+/* Navbar Section End */
+
+
+
+/* <!-- First Container --> */
+
+.container-fluid {
+    padding: 1% 3%;
+}
+
+/* <!-- First Container --> */
+
+
+
+/* H1 Line */
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 4% 0%;
+}
+
+/* H1 Line */
+
+
+
+/* ANIME CONTENT  */
+
+.anime-content {
+    text-align: center;
+
+}
+
+/* ANIME CONTENT  */
+
+/* ANIME  IMAGE  */
+
+.anime-image-box {
+    text-align: center;
+
+}
+
+.animepic {
+    margin-top: 2%;
+    border: 1px solid white;
+    width: 100%;
+    border-radius: 1%;
+}
+
+/* ANIME  IMAGE  */
+
+
+/* DOWNLOAD BUTTON */
+
+.dwnld-btn {
+    margin: 5% 5%;
+}
+
+.btnimg {
+    margin-right: 1rem;
+}
+
+/* DOWNLOAD BUTTON */
+
+
+
+
+/* FEATURES CONTAINERS */
+
+.features-container {
+    width: 99vw;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+    padding: 1% 20%;
+
+}
+
+.features-card {
+    padding: 1% 3%;
+    /* margin: 1% 0%; */
+}
+
+/* FEATURES CONTAINERS */
+
+
+
+
+
+/* QUOTE CONTAINER START  */
+.anime-image-container {
+    width: 99vw;
+
+}
+
+.anime-wallpepr-header {
+    width: 100vw;
+
+    font-family: 'Rubik Distressed', cursive;
+    margin: 1% 0%;
+    padding: 0;
+
+}
+
+.wallpaper-container {
+    text-align: center;
+}
+
+.wallpaper-item {
+    padding: 1% 15%;
+}
+
+.wallpaper-image {
+    border: 1px solid white;
+    width: 90%;
+    border-radius: 1%;
+}
+
+/* QUOTE CONTAINER END */
+
+
+/* PRICING CARD CONTAINER  */
+#pricing {
+    padding: 0% 14%;
+
+}
+
+.card-container {
+    padding: 2% 0%;
+    margin: 1% 0%;
+}
+
+.pack-header {
+    margin-top: 3%;
+    font-family: 'Rubik Distressed', cursive;
+    padding: 0;
+
+}
+
+.card-box {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.card {
+    border: white solid 2px;
+    background-image: linear-gradient(65.9deg, rgba(85, 228, 224, 1) 5.5%, rgba(75, 68, 224, 0.74) 54.2%, rgba(64, 198, 238, 1) 55.2%, rgba(177, 36, 224, 1) 98.4%);
+}
+
+.card-header {
+    border-bottom: white solid 2px;
+
+}
+
+.pack {
+    color: rgba(255, 255, 255, 0.79);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.features-pts {
+    color: white;
+    /* color: rgb(27, 18, 18); */
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.pricetag {
+    font-size: 2.2rem;
+}
+
+.fade-pts {
+    color: rgba(255, 255, 255, 0.182);
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* PRICING CARD CONTAINER  */
+
+
+/* PARTNER SECTION  */
+.partner-header {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 0% 4%;
+    border-top: white solid 1px;
+    /* background-image: linear-gradient(109.6deg, rgba(116, 18, 203, 1) 11.2%, rgba(230, 46, 131, 1) 91.2%); */
+    background-image: linear-gradient(65.5deg, rgba(23, 205, 205, 1) -15.1%, rgba(23, 25, 95, 1) 71.5%);
+
+}
+
+
+.partner-image {
+    width: 100%;
+    height: 90%;
+    border-radius: 8px;
+    border: solid 3px white;
+}
+
+.end-line {
+    text-align: center;
+    color: white;
+}
+
+.contact-icon{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.contact-element{
+    margin: 0% 1%;
+}
+/* PARTNER SECTION  */
